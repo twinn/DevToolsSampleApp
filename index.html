@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Calendar</title>
+  <link href="stylesheets/calendar.css" media="screen" rel="stylesheet" type="text/css">
+  <script src="javascripts/jquery.js" type="text/javascript"></script>
+  <script src="javascripts/jquery-ui.js" type="text/javascript"></script>
+</head>
+<body>
+<section id="calendar" class="calendar" style="display: block;">
+  <header>
+    <a class="prev" href="#">Prev</a>
+    <a class="next" href="#">Next</a>
+    <h1 id="date" class="date">
+        <img src="images/icon.jpg">
+        <b class="today">Fri</b> Dec 13 2013
+    </h1>
+  </header>
+  <ul id="events" class="events">
+  </ul>
+  <a class="new" href="#">Add Event</a>
+  <form class="create">
+    <input type="text" placeholder="Enter an event" />
+    <input type="submit" value="Create Event" />
+  </form>
+</section>
+
+</body>
+</html>
