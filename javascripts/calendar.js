@@ -120,4 +120,4 @@ window.Calendar = {
   }
 }
 
-$(window).load(Calendar.setup);
+//$(window).load(Calendar.setup);
