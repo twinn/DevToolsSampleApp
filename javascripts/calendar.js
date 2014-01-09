@@ -41,7 +41,7 @@ window.Calendar = {
 
   displayDate: function() {
     var dateParts = Calendar.displayedDate.toDateString().split(' ');
-    $('.date')[0].innerHTML = '<b>' + dateParts[0] + '</b> ' + dateParts.slice(1, dateParts.length).join(' ');
+    $('.date')[0].innerHTML = '<img src="images/icon.jpg?v2"><b class="today">Fri</b> Dec 13 2013'
     var daysEvents = Calendar.getEventsForDate(Calendar.displayedDate.toJSON());
     $events = $('.events');
     $events.html('');
@@ -120,4 +120,4 @@ window.Calendar = {
   }
 }
 
-//$(window).load(Calendar.setup);
+$(window).load(Calendar.setup);
