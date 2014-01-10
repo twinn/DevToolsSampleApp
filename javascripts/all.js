@@ -700,7 +700,7 @@ window.Calendar = {
 
   displayDate: function() {
     var dateParts = Calendar.displayedDate.toDateString().split(' ');
-    $('.date')[0].innerHTML = '<img src="images/icon.jpg?v2"><b class="today">Fri</b> Dec 13 2013'
+    $('.date')[0].innerHTML = '<img src="images/icon.jpg"><b class="today">Fri</b> Dec 13 2013'
     var daysEvents = Calendar.getEventsForDate(Calendar.displayedDate.toJSON());
     $events = $('.events');
     $events.html('');
